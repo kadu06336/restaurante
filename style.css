@@ -1,0 +1,60 @@
+* {
+    font-size: 16px;
+    font-family: 'overlock',sans-serif;
+}
+
+body{
+    background-color: #222;
+    color: #ddd;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.cabecalho {
+    border: 2px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 3rem auto 0 auto ;
+    background-color: rgba(28, 28, 28, 0.3);
+}
+
+.cabecalho-marca-link{
+    font-family: "Titillium Web", sans-serif;
+    color: #ddd;
+    font-size: 3rem;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.cabecalho-menu-lista{
+    list-style-type: none;
+    
+
+ 
+}
+
+.cabecalho-menu-lista-link{
+    color:#ddd;
+    text-decoration: none;
+}
+
+
+
+.conteudo {
+    border: 1px solid orange;
+}
+
+.subtitulo {
+    color: orange;
+}
+
+.rodape {
+    border: 1px solid blue;
+}
+
+.empresa {
+    color: blue;
+}
