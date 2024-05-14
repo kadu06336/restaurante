@@ -93,8 +93,18 @@ h2 {
 
 .rodape {
     border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
 }
 
+.rodape-esquerda{
+    border: 1px solid yellow;
+    min-height: 15rem;
+}
+
+.rodape-direita{
+    border: 1px solid cyan;
+}
 .empresa {
     color: blue;
 }
