@@ -92,18 +92,34 @@ h2 {
 }
 
 .rodape {
-    border: 1px solid blue;
+    border-top: 2px solid whitesmoke;
+    min-height: 15rem;
+    background-color: #222;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    
+}
+
+.rodape-caixa {
+    border: 1px solid yellow;
     display: flex;
     justify-content: space-between;
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+
 }
 
 .rodape-esquerda{
-    border: 1px solid yellow;
+    border: 1px solid rgb(19, 1, 2);
     min-height: 15rem;
 }
 
 .rodape-direita{
     border: 1px solid cyan;
+    font-size: 2.rem;
+    color: black;
 }
 .empresa {
     color: blue;
