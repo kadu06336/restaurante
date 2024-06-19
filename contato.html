@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Bonchef</title>
+    <link rel="shortcut icon" href="icons/9069275_chef_hat_icon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400&family=Titillium+Web:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="icons/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <section class="cabecalho-marca">
+            <a href="index.html" class="cabecalho-marca-link">bonchef <img src="icons/9069275_chef_hat_icon.svg" alt="icone de um chapéu de cozinheiro" class="cabecalho-marca-icone"></a>
+
+        </section>
+        <section class="cabecalho-menu">
+            <nav class="cabecalho-menu-nav">
+                <ul class="cabecalho-menu-lista">
+                    <li class="cabecalho-menu-lista-item"><a href="index.html" class="cabecalho-menu-lista-link">Página inicial</a></li>
+                    <li class="cabecalho-menu-lista-item"><a href="sobre.html" class="cabecalho-menu-lista-link">Sobre nós</a></li>
+                    <li class="cabecalho-menu-lista-item"><a href="cardapio/cardapio.pdf" class="cabecalho-menu-lista-link" target="_blank">Cardapio</a></li>
+                    <li class="cabecalho-menu-lista-item"><a href="contato.html" class="cabecalho-menu-lista-link">Contato</a></li>
+                    
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main class="conteudo">
+        <div class="conteudo-esquerda conteudo-esquerda-contato" >
+            &nbsp;
+        </div>
+        <div class="conteudo-direita">
+            <h2 class="conteudo-titulo">Contato</h2>
+            <p class="conteudo-texto">Preencha o formulário abaixo para entrar em conato conosco:</p>
+            <form action="javascript:alert('Dados enviados com sucesso!')">
+                <label for="nome" class="formulario-rotulo">Nome</label>
+                <input type="text" class="formulario-caixa" id="nome" required>
+                <label for="Email" class="formulario-rotulo">E-mail</label>
+                <input type="email" name="Email" id="Email" class="formulario-caixa" required>
+                <label for="telefone" class="formulario-rotulo"> Telefone/Celular</label>
+                <input type="tel" name="telefone" id="telefone" class="formulario-caixa" required>
+                <label for="tipodecontato" class="formulario-rotulo"> Tipo de Contato </label>
+                <select name="tipodecontato" id="tipodecontato" class="formulario-caixa">
+                    <option value="duvida">Duvída</option>
+                    <option value="sugestao">Sugestão</option>
+                    <option value="reclamacao">Reclamação</option>
+                    <option value="elogio">Elogio</option>
+                    <option value="outro">Outro</option>
+                    <option value="selecione" selected>Selecione</option>
+                </select>
+                    <label for="mensagem" class="formulario-rotulo">Sua mensagem</label>
+                    <textarea name="" id="" class="formulario-caixa"></textarea>
+
+
+
+                
+                
+                
+                <input type="submit" value="Enviar">
+            </form>
+      
+            </table>
+        </div>
+    </main>
+    <footer class="rodape">
+        <div class="rodape-caixa">
+            <section class="rodape-esquerda">
+                <h2 class="rodape-marca">bonchef <img src="icons/9069275_chef_hat_icon.svg" alt="icone de um chapéu de cozinheiro" class="rodape-marca-icone"></h2>
+                <h3 class="rodape-subtitulo">visite-nos</h3>
+                <span class="rodape-info">Rua peixoto de castro 2520</span>
+                <h3 class="rodape-subtitulo">informaçoes de entrega</h3>
+                <span class="rodape-info"><i class="icon-phone laranja"></i> 12325458785</span>
+                <br>
+                <span class="rodape-info"><i class="icon-whatsapp verde"></i>129587854852</span>
+                 </section>
+                <h3 class="rodape-subtitulo">Horário de funcionamento</h3>
+                <span class="rodape-info">Segunda a quinta-feira 10h as 14h</span>
+       Z         <br>
+                <span class="rodape-info">Sexta-feira  das 10h as 14h e 18h as 24h</span>
+                <br>
+                <span class="rodape-info">Sábado das 10h as 16h e 18h as 24h</span>
+                <br>
+                <span class="rodape-info">Domingos e feriados das 14h as 22h</span>
+            </section>
+            <section class="rodape-direita">
+                <div class="rodape-direita-redes">
+                    <h3 class="rodape-subtitulo">siga-nos nas redes sociais</h3>
+                    <a href="https://facebook.com" target="_blank" class="rodape-link"> <i class="icon-facebook2 rodape-icone-link"></i></a>
+                    <a href="https://instagram.com" target="_blank" class="rodape-link"><i class="icon-instagram rodape-icone-link"></i></a>
+                    <a href="https://x.com" target="_blank" class="rodape-link"><i class="icon-x rodape-icone-link"></i></a>
+                    <a href="https://linkedin.com/in" target="_blank" class="rodape-link"><i class="icon-linkedin2 rodape-icone-link"></i></a>
+                </div>
+                <span class="rodape-atencao">
+                    <strong>ATENÇÃO: </strong> ESTA E UMA EMPRESA <U>FICTÍCIA</U> CRIADA PARA UM PROJETO NO CURSO DE DESENVOLVIMENTO WEB
+                </span>
+
+                <p class="rodape-info">&copy; <script>javascript:document.write(new Date().getFullYear());</script> | Carlos Eduardo Valério | todos os direitos reservados.</p>
+            </section>
+        </div>
+       
+            
+    </footer>
+</body>
+</html>
