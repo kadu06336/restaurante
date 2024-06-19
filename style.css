@@ -80,11 +80,19 @@ h2 {
 .conteudo-esquerda{
    
     width: 50%;
-    background-image: url(imagens/asparagus-2169305_1280.jpg);
+    
     background-size: cover ;
     background-position: center;
 }
 
+.conteudo-esquerda-sobre{
+    background-image: url(imagens/asparagus-2169305_1280.jpg);
+}
+
+.conteudo-esquerda-contato{
+
+    background-image: url(imagens/woman-8664665_960_720.jpg);
+}
 .conteudo-direita{
    
     width: 50%;
